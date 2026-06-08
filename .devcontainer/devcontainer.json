@@ -1,10 +1,9 @@
 {
-  "forwardPorts": [443],
+  "forwardPorts": [10000],
   "portsAttributes": {
-    "443": {
-      "label": "WebSocket Server",
-      "onAutoForward": "notify",
-      "visibility": "public"  // 设为 public 才能在不登录的情况下被外部客户端连接
+    "10000": {
+      "label": "WS Service",
+      "visibility": "public"
     }
   }
 }
